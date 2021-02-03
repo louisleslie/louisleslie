@@ -1,0 +1,112 @@
+/*
+$charleston-green: rgba(46, 53, 50, 1);
+$antique-ruby: rgba(139, 38, 53, 1);
+$alabaster: rgba(224, 226, 219, 1);
+$timberwolf: rgba(210, 212, 200, 1);
+$copper: rgba(196, 115, 53, 1);
+
+$light-gray: rgba(215, 216, 220, 1);
+$copper-crayola: rgba(198, 132, 98, 1);
+$xiketic: rgba(22, 24, 41, 1);
+$dark-moss-green: rgba(92, 98, 57, 1);
+$sonic-silver: rgba(112, 116, 122, 1);
+*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.container {
+  margin: auto;
+}
+body {
+  background-color: rgba(250, 250, 250, 1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 25px;
+  box-shadow: 2px 1px 5px rgba(112, 116, 122, 1);
+  background-color: rgba(215, 216, 220, 1);
+  text-align: center;
+}
+.button-wrapper {
+  padding: 10px;
+}
+.button {
+  /*padding: 10px;*/
+}
+
+img {
+  width: 20%;
+  box-shadow: 3px 3px 3px rgba(112, 116, 122, 1);
+  border-radius: 25%;
+  margin: 10px;
+}
+
+h1 {
+  /*font-family: 'Cormorant', cursive;*/
+  font-size: 3.5em;
+  color: rgba(22, 24, 41, 1);
+  margin: 0;
+}
+
+h2, h4 {
+  font-weight: 600;
+  color: rgba(22, 24, 41, 1);
+  text-align: center;
+  margin: 0;
+  padding: 10;
+}
+
+p {
+  font-weight: 300;
+  color: rgba(22, 24, 41, 1);
+  font-size: 14px;
+  text-align: center;
+}
+
+a, a:visited {
+  color: rgba(40, 44, 26, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(92, 98, 57, 1);
+  text-decoration: none;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+}
+li {
+  float: left;
+  padding: 0px 10px;
+}
+
+i {
+  font-size: 24px;
+}
